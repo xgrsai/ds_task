@@ -92,9 +92,6 @@
 
 | Запит користувача   | Результат                                                                                                                                              | Оцінка        |
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
-| `AI and emissions`  | **Стаття:** *AI and Data Center Boom Challenges Big Tech’s Emissions Targets*  
-**Зображення:** графік викидів CO₂                                             | ✅ Релевантно |
-| `drug discovery`    | **Стаття:** *AI Co-Scientist: An Agent That Generates Research Hypotheses Aiding Drug Discovery*  
-**Зображення:** лабораторне обладнання                         | ✅ Релевантно |
-| `energy cost of AI` | **Стаття:** *The International Energy Agency Examines the Energy Costs and Potential Savings of the AI Boom*  
-**Зображення:** діаграми споживання енергії | ✅ Релевантно |
+| `AI and emissions`  | **Стаття:** *AI and Data Center Boom Challenges Big Tech’s Emissions Targets*   **Зображення:** графік викидів CO₂                                             | ✅ Релевантно |
+| `drug discovery`    | **Стаття:** *AI Co-Scientist: An Agent That Generates Research Hypotheses Aiding Drug Discovery*   **Зображення:** лабораторне обладнання                         | ✅ Релевантно |
+| `energy cost of AI` | **Стаття:** *The International Energy Agency Examines the Energy Costs and Potential Savings of the AI Boom*   **Зображення:** діаграми споживання енергії | ✅ Релевантно |
