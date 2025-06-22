@@ -46,12 +46,22 @@
 
 Для коректної роботи Streamlit-додатку потрібно виконати наступні кроки:
 
-1. Встановити залежності:
+1. Встановити залежності (рекомендовано робити через anaconda):
+
 
    ```bash
-   pip install -r requirements.txt
+   conda env create -f environment.yml
+   conda activate rag-env
    ```
 
+    
+    якщо нема anaconda тоді
+    
+    ```bash
+    pip install -r requirements.txt
+    ```
+    
+    > **Увага:** у випадку установки через pip може знадобитися додатково встановити Jupyter Notebook
 2. Додати (створити) `.env` файл з Google API ключем [GoogleAPI](https://aistudio.google.com/apikey):
 
    ```
