@@ -1,5 +1,7 @@
 # custom
 raw/
+chroma_langchain_db/
+downloaded_images/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
