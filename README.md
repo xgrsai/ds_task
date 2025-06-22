@@ -85,13 +85,12 @@
 Для оцінки продуктивності мультимодальної RAG-системи було проведено ручне тестування з використанням типових запитів до бази статей з The Batch. Критеріями оцінки були:
 
 * **Релевантність текстової відповіді** до запиту.
-* **Змістовність відповіді** від LLM (якщо застосовується).
-* **Відповідність зображень** до тематики знайдених статей.
+* **Змістовність відповіді** від LLM.
 
 ### Тестові приклади
 
 | Запит користувача   | Результат                                                                                                                                              | Оцінка        |
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
-| `AI and emissions`  | **Стаття:** *AI and Data Center Boom Challenges Big Tech’s Emissions Targets*   **Зображення:** графік викидів CO₂                                             | ✅ Релевантно |
-| `drug discovery`    | **Стаття:** *AI Co-Scientist: An Agent That Generates Research Hypotheses Aiding Drug Discovery*   **Зображення:** лабораторне обладнання                         | ✅ Релевантно |
-| `energy cost of AI` | **Стаття:** *The International Energy Agency Examines the Energy Costs and Potential Savings of the AI Boom*   **Зображення:** діаграми споживання енергії | ✅ Релевантно |
+| `AI and emissions`  | **Стаття:** *AI and Data Center Boom Challenges Big Tech’s Emissions Targets* | результат відповідає статті |
+| `(зображення схеми AI Co-Scientist)`     | **Стаття:** *AI Co-Scientist: An Agent That Generates Research Hypotheses Aiding Drug Discovery* | результат достатньо релевантний статті |
+| `energy cost of AI` | **Стаття:** *The International Energy Agency Examines the Energy Costs and Potential Savings of the AI Boom* | результат відповідає статті |
