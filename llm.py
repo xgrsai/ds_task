@@ -16,7 +16,7 @@ class LLMResponder:
     def respond(self, text_img_dict):
         filepath = text_img_dict['image_path']
         text = text_img_dict['text']
-        print('filepath=', filepath)
+
         client = genai.Client(api_key=api_key)
 
         with open(filepath, 'rb') as f:

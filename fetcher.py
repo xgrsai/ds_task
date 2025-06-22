@@ -37,7 +37,6 @@ class TextContextFetcher(AbstractContextFetcher):
         doc = next((doc for doc in docs if doc is not None), None)
         
         img_id = query_result['ids'][0][0]
-        # print("img_id55555",img_id)
         filepath = file_by_prefix(img_id)
-        # print('img_id5555566',filepath)
+
         return {"image_path": filepath, "text": doc}

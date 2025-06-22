@@ -52,8 +52,7 @@ class TextInputRetriever(Retriever):
     
     def _fetch_result(self, results, collection):
         fetсh = ImageContextFetcher(collection)
-        print("fetch000",fetсh)
         dict_fetch = fetсh.build_context(results)
-        print("fetch111",dict_fetch)
+
         return self._llm_summarize(dict_fetch)
 

@@ -1,6 +1,6 @@
 # Multimodal RAG (Text + Image Retrieval-Augmented Generation)
 
-Цей проєкт реалізує мультимодальну RAG-систему на основі статей з [The Batch](https://www.deeplearning.ai/the-batch/), яка поєднує обробку тексту та зображень для побудови семантичного індексу з можливістю пошуку по обох модальностях.
+Мультимодальна RAG на основі статей з [The Batch](https://www.deeplearning.ai/the-batch/)
 
 ---
 
