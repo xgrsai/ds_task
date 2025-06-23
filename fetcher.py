@@ -1,10 +1,10 @@
 """функціонал для об'єднання з retrieve"""
 from abc import ABC, abstractmethod
-from typing import Any, Dict
+from typing import Dict
 from utils import file_by_prefix
 
 class AbstractContextFetcher(ABC):
-    def __init__(self, collection: Any):
+    def __init__(self, collection):
         self.collection = collection
 
     @abstractmethod
